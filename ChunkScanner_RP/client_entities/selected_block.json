@@ -4,7 +4,7 @@
     "description": {
       "identifier": "custom:selected_block",
       "materials": {
-        "default": "glow_in_walls"
+        "default": "entity_alphablend"
       },
       "textures": {
         "default": "textures/particles/selected_block"
@@ -13,7 +13,7 @@
         "default": "geometry.selection_box"
       },
       "render_controllers": [
-        "controller.render.default"
+        "controller.render.selected_block"
       ]
     }
   }

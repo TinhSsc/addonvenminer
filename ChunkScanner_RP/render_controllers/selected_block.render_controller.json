@@ -1,0 +1,23 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.selected_block": {
+            "arrays": {
+                "textures": {
+                    "Array.default": [
+                        "Texture.default"
+                    ]
+                }
+            },
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Array.default[0]"
+            ]
+        }
+    }
+}
