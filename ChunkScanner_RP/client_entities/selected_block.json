@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "custom:selected_block",
+      "materials": {
+        "default": "glow_in_walls"
+      },
+      "textures": {
+        "default": "textures/particles/selected_block"
+      },
+      "geometry": {
+        "default": "geometry.selection_box"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

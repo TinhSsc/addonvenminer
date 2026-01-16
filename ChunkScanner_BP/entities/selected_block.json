@@ -1,0 +1,20 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "custom:selected_block",
+            "is_spawnable": false,
+            "is_summonable": true
+        },
+        "components": {
+            "minecraft:physics": {
+                "has_collision": false,
+                "has_gravity": false
+            },
+            "minecraft:collision_box": {
+                "width": 0,
+                "height": 0
+            }
+        }
+    }
+}

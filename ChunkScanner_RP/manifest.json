@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Block Highlight RS",
+        "description": "Resource Pack for Block Highlight",
+        "uuid": "23e74517-4ba6-48be-a4c4-a9c814effa55",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Resources",
+            "type": "resources",
+            "uuid": "5e1a3b2c-4d5f-6a7b-8c9d-0e1f2a3b4c5d",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

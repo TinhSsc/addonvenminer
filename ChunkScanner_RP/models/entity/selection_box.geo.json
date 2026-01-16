@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.selection_box",
+                "texture_width": 16,
+                "texture_height": 16
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        8,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8.05,
+                                -0.05,
+                                -8.05
+                            ],
+                            "size": [
+                                16.1,
+                                16.1,
+                                16.1
+                            ],
+                            "uv": [
+                                0,
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

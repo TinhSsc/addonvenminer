@@ -1,0 +1,56 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Block Highlight Addon",
+        "description": "Auto Setup & Debug Mode - Biomes & Scripts",
+        "uuid": "828bd12f-feba-45bb-8080-1385627d5b24",
+        "version": [
+            1,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Script logic",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "8380d21a-82c5-48f8-95c0-120636255e40",
+            "version": [
+                1,
+                0,
+                1
+            ],
+            "entry": "scripts/main.js"
+        },
+        {
+            "description": "Data module",
+            "type": "data",
+            "uuid": "d5448375-6e60-4925-9276-8e54823812fa",
+            "version": [
+                1,
+                0,
+                1
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.14.0"
+        },
+        {
+            "uuid": "23e74517-4ba6-48be-a4c4-a9c814effa55",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
